@@ -25,19 +25,6 @@
             "request": "attach",
             "port": 3000,
             "host": "localhost"
-        },
-        {
-            "name": "(windows-x86_64) isaac-sim [release]",
-            "type": "cppvsdbg",
-            "request": "launch",
-            "program": "D:/Common_Programs/omniverse/pkg/isaac_sim-2022.2.1/kit/kit.exe",
-            "args": ["D:/Common_Programs/omniverse/pkg/isaac_sim-2022.2.1/apps/omni.isaac.sim.kit",
-                "--ext-folder", "D:/Common_Programs/omniverse/pkg/isaac_sim-2022.2.1/apps"],
-            "stopAtEntry": false,
-            "cwd": "D:/Common_Programs/omniverse/pkg/isaac_sim-2022.2.1",
-            "environment": [],
-            "externalConsole": false,
-            "internalConsoleOptions": "openOnSessionStart",
-        },
+        }
     ]
 }
