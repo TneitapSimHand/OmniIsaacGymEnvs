@@ -33,7 +33,7 @@ params:
     normalize_input: True
     reward_shaper:
       scale_value: 1.0
-    max_epochs: ${resolve_default:50000,${....max_iterations}}
+    max_epochs: ${resolve_default:5000000,${....max_iterations}}
     num_steps_per_episode: 8
     save_best_after: 100
     save_frequency: 1000
